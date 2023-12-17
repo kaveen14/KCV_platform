@@ -16,7 +16,7 @@ export class FeedbacksComponent implements OnInit {
   slideConfig = new SlideConfig()
 
   ngOnInit(): void {
-    this.slideConfig.breakpoints = { sm: 1, md: 1, lg: 2, xl: 2 }
+    this.slideConfig.breakpoints = { sm: 1, md: 1, lg: 2, xl: 2 }     
     this.slideConfig.showLeftRightArrow = false;
     this.slideConfig.showDots = true;
     this.getAllFeddbacks()
